@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQs - Cyberion</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/faqs.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <div class="page-container">
+        <header class="fixed-header">
+            <div class="logo-container">
+                <img class="logo" src="images/logo.png" alt="Cyberion logo">
+                <div>Cyberion</div>
+            </div>
+            <nav>
+                <a href="main.html">דף הבית</a>
+                <a href="info.html">אודות</a>
+                <a href="faqs.html">FAQs</a>
+                <a href="#">צור קשר</a>
+            </nav>
+        </header>
+        
+        <main class="main-content">
+            <h1 class="text-center">שאלות ותשובות</h1>
+            <div class="accordion" id="faqAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#question1">
+                            מהו השירות המרכזי של Cyberion?
+                        </button>
+                    </h2>
+                    <div id="question1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Cyberion מתמחה באבטחת מידע והגנה על פרטיות משתמשים.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#question2">
+                            איך ניתן ליצור קשר עם צוות התמיכה?
+                        </button>
+                    </h2>
+                    <div id="question2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            ניתן ליצור קשר דרך עמוד "צור קשר" באתר או בטלפון 123-456-7890.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>©Camilla</p>
+            <div class="social-icons">
+                <a href="#">🔗 לינקדאין</a>
+                <a href="#">🔗 פייסבוק</a>
+                <a href="#">🔗 טוויטר</a>
+                <a href="#">🔗 יוטיוב</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

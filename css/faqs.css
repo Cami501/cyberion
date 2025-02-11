@@ -1,0 +1,14 @@
+.accordion-button {
+    background-color: #042e5a;
+    color: white;
+    border: none;
+    font-size: 1.2em;
+    text-align: right;
+}
+.accordion-button:focus {
+    box-shadow: none;
+}
+.accordion-body {
+    background-color: #f8f9fa;
+    color: #333;
+}
